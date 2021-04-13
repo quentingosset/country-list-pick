@@ -46,6 +46,7 @@ class _MyAppState extends State<MyApp> {
               isShowCode: false,
               isDownIcon: true,
               showEnglishName: false,
+              alphabetSelectedBackgroundColor: Colors.red,
               searchHintText: "Search network",
             ),
             initialSelection: '+43114',

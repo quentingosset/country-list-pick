@@ -78,7 +78,7 @@ class _CountryListPickState extends State<CountryListPick> {
             appBar: widget.appBar ??
                 AppBar(
                   backgroundColor: theme!.alphabetSelectedBackgroundColor,
-                  title: Text(theme.searchHintText.toString()),
+                  title: Text(theme.searchHintText.toString(), style: TextStyle(color: Colors.white)),
                 ),
             theme: theme,
             countryBuilder: widget.countryBuilder,
