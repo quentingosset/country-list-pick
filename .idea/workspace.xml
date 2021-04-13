@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="468c5ca9-df20-4f55-9b95-a3a939de35ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/country_list_pick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/country_list_pick.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/country_list_pick.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/country_list_pick.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selection_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selection_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/crypto_network_list_pick.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/crypto_network_list_pick.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +19,25 @@
   <component name="ProjectId" id="1hiAdWNcpb2wDc4crjEnEGOYhDm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flags" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Quentin Gosset\IdeaProjects\crypto_network_list_pick\flags" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -41,25 +48,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600483626305</updated>
+      <workItem from="1618334362586" duration="391000" />
+      <workItem from="1618334837109" duration="4811000" />
     </task>
+    <task id="LOCAL-00001" summary="Hackhaton - fast commit">
+      <created>1618337169027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618337169027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="123" y="247" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600484644986">
-      <screen x="0" y="23" width="1920" height="1124" />
-    </state>
-    <state x="123" y="247" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1600484644986" />
-    <state x="248" y="100" key="CommitChangelistDialog2" timestamp="1600488956353">
-      <screen x="0" y="23" width="1920" height="1124" />
-    </state>
-    <state x="248" y="100" key="CommitChangelistDialog2/0.23.1920.1124@0.23.1920.1124" timestamp="1600488956353" />
-    <state x="160" y="224" key="SettingsEditor" timestamp="1600484159641">
-      <screen x="0" y="23" width="1920" height="1124" />
-    </state>
-    <state x="160" y="224" key="SettingsEditor/0.23.1920.1124@0.23.1920.1124" timestamp="1600484159641" />
-    <state x="100" y="123" width="1117" height="924" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600486921676">
-      <screen x="0" y="23" width="1920" height="1124" />
-    </state>
-    <state x="100" y="123" width="1117" height="924" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1600486921676" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hackhaton - fast commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hackhaton - fast commit" />
   </component>
 </project>
