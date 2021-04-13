@@ -77,7 +77,8 @@ class _SelectionListState extends State<SelectionList> {
     Widget scaffold = Scaffold(
       appBar: widget.appBar,
       body: Container(
-        color: Color(0xfff4f4f4),
+        //color: Color(0xfff4f4f4),
+        color: Color(0xFF1E1E21),
         child: LayoutBuilder(builder: (context, contrainsts) {
           diff = height - contrainsts.biggest.height;
           _heightscroller = (contrainsts.biggest.height) / _alphabet.length;
@@ -92,12 +93,16 @@ class _SelectionListState extends State<SelectionList> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
+                        /*Padding(
                           padding: const EdgeInsets.all(15.0),
-                          child: Text(widget.theme?.searchText ?? 'SEARCH'),
-                        ),
-                        Container(
-                          color: Colors.white,
+                          child: Text(
+                              widget.theme?.searchText ?? 'SEARCH',
+                              style: TextStyle(color: Colors.white)
+                          ),
+                        ),*/
+                       /* Container(
+                          //color: Colors.white,
+                          color: Color(0xFF1E1E21),
                           child: TextField(
                             controller: _controller,
                             decoration: InputDecoration(
@@ -110,17 +115,22 @@ class _SelectionListState extends State<SelectionList> {
                                   left: 15, bottom: 0, top: 0, right: 15),
                               hintText:
                                   widget.theme?.searchHintText ?? "Search...",
+                              hintStyle: TextStyle(color: Colors.white),
                             ),
                             onChanged: _filterElements,
                           ),
-                        ),
+                        ),*/
                         Padding(
                           padding: const EdgeInsets.all(15.0),
                           child:
-                              Text(widget.theme?.lastPickText ?? 'LAST PICK'),
+                              Text(
+                                widget.theme?.lastPickText ?? 'LAST PICK',
+                                style: TextStyle(color: Colors.white)
+                              ),
                         ),
                         Container(
-                          color: Colors.white,
+                          //color: Colors.white,
+                          color: Color(0xFF1E1E21),
                           child: Material(
                             color: Colors.transparent,
                             child: ListTile(
@@ -129,7 +139,10 @@ class _SelectionListState extends State<SelectionList> {
                                 package: 'crypto_network_list_pick',
                                 width: 32.0,
                               ),
-                              title: Text(widget.initialSelection!.name!),
+                              title: Text(
+                                  widget.initialSelection!.name!,
+                                  style: TextStyle(color: Colors.white)
+                              ),
                               trailing: Padding(
                                 padding: const EdgeInsets.only(right: 20.0),
                                 child: Icon(Icons.check, color: Colors.green),
@@ -181,7 +194,8 @@ class _SelectionListState extends State<SelectionList> {
   Widget getListCountry(CountryCode e) {
     return Container(
       height: 50,
-      color: Colors.white,
+      //color: Colors.red,
+      color: Color(0xFF1E1E21),
       child: Material(
         color: Colors.transparent,
         child: ListTile(
@@ -190,7 +204,10 @@ class _SelectionListState extends State<SelectionList> {
             package: 'crypto_network_list_pick',
             width: 30.0,
           ),
-          title: Text(e.name!),
+          title: Text(
+            e.name!,
+            style: TextStyle(color: Colors.white),
+          ),
           onTap: () {
             _sendDataBack(context, e);
           },
