@@ -1,4 +1,4 @@
-package id.duende.country_list_pick_example
+package id.duende.crypto_network_list_pick_example
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

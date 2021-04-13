@@ -1,5 +1,5 @@
 List<Map<String, String>> codes = [
-  {
+  /*{
     "name": "افغانستان",
     "code": "AF",
     "dial_code": "+93",
@@ -503,8 +503,33 @@ List<Map<String, String>> codes = [
     "name": "भारत",
     "code": "IN",
     "dial_code": "+91",
+  },*/
+  {
+    "name": "Ethereum Mainnet",
+    "code": "1",
+    "dial_code": "+1",
   },
   {
+    "name": "Polygon/Matic Mainnet",
+    "code": "137",
+    "dial_code": "+137",
+  },
+  {
+    "name": "Polygon/Matic Mumbai Testnet",
+    "code": "8001",
+    "dial_code": "+8001",
+  },
+  {
+    "name": "Binance Smart Chain",
+    "code": "56",
+    "dial_code": "+56",
+  },
+  {
+    "name": "Avalanche C-Chain Mainnet",
+    "code": "43114",
+    "dial_code": "+43114",
+  },
+  /*{
     "name": "Indonesia",
     "code": "ID",
     "dial_code": "+62",
@@ -1233,5 +1258,5 @@ List<Map<String, String>> codes = [
     "name": "Zimbabwe",
     "code": "ZW",
     "dial_code": "+263",
-  },
+  },*/
 ];

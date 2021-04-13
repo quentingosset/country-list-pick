@@ -1,4 +1,4 @@
-group 'id.duende.country_list_pick'
+group 'id.duende.crypto_network_list_pick'
 version '1.0-SNAPSHOT'
 
 buildscript {

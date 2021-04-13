@@ -1,10 +1,10 @@
-import 'package:country_list_pick/country_selection_theme.dart';
-import 'package:country_list_pick/support/code_country.dart';
+import 'package:crypto_network_list_pick/country_selection_theme.dart';
+import 'package:crypto_network_list_pick/support/code_country.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'country_list_pick.dart';
+import 'crypto_network_list_pick.dart';
 
 class SelectionList extends StatefulWidget {
   SelectionList(this.elements, this.initialSelection,
@@ -126,7 +126,7 @@ class _SelectionListState extends State<SelectionList> {
                             child: ListTile(
                               leading: Image.asset(
                                 widget.initialSelection!.flagUri!,
-                                package: 'country_list_pick',
+                                package: 'crypto_network_list_pick',
                                 width: 32.0,
                               ),
                               title: Text(widget.initialSelection!.name!),
@@ -187,7 +187,7 @@ class _SelectionListState extends State<SelectionList> {
         child: ListTile(
           leading: Image.asset(
             e.flagUri!,
-            package: 'country_list_pick',
+            package: 'crypto_network_list_pick',
             width: 30.0,
           ),
           title: Text(e.name!),

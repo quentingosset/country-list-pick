@@ -1,11 +1,9 @@
-import 'package:country_list_pick/country_selection_theme.dart';
-import 'package:country_list_pick/selection_list.dart';
-import 'package:country_list_pick/support/code_countries_en.dart';
-import 'package:country_list_pick/support/code_country.dart';
-import 'package:country_list_pick/support/code_countrys.dart';
+import 'package:crypto_network_list_pick/country_selection_theme.dart';
+import 'package:crypto_network_list_pick/selection_list.dart';
+import 'package:crypto_network_list_pick/support/code_countries_en.dart';
+import 'package:crypto_network_list_pick/support/code_country.dart';
+import 'package:crypto_network_list_pick/support/code_countrys.dart';
 import 'package:flutter/material.dart';
-
-import 'support/code_country.dart';
 
 export 'support/code_country.dart';
 
@@ -113,7 +111,7 @@ class _CountryListPickState extends State<CountryListPick> {
                       padding: const EdgeInsets.symmetric(horizontal: 5.0),
                       child: Image.asset(
                         selectedItem!.flagUri!,
-                        package: 'country_list_pick',
+                        package: 'crypto_network_list_pick',
                         width: 32.0,
                       ),
                     ),

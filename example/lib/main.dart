@@ -1,5 +1,5 @@
 
-import 'package:country_list_pick/country_list_pick.dart';
+import 'package:crypto_network_list_pick/crypto_network_list_pick.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -26,17 +26,14 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: CountryListPick(
-            appBar: AppBar(
-              backgroundColor: Colors.amber,
-              title: Text('Pick your country'),
-            ),
+
             // if you need custome picker use this
             // pickerBuilder: (context, CountryCode countryCode) {
             //   return Row(
             //     children: [
             //       Image.asset(
             //         countryCode.flagUri,
-            //         package: 'country_list_pick',
+            //         package: 'crypto_network_list_pick',
             //       ),
             //       Text(countryCode.code),
             //       Text(countryCode.dialCode),
@@ -46,11 +43,11 @@ class _MyAppState extends State<MyApp> {
             theme: CountryTheme(
               isShowFlag: true,
               isShowTitle: true,
-              isShowCode: true,
+              isShowCode: false,
               isDownIcon: true,
               showEnglishName: false,
             ),
-            initialSelection: '+62',
+            initialSelection: '+43114',
             // or
             // initialSelection: 'US'
             onChanged: (CountryCode code) {

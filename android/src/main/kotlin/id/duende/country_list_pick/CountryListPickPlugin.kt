@@ -1,4 +1,4 @@
-package id.duende.country_list_pick
+package id.duende.crypto_network_list_pick
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -11,7 +11,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 /** CountryListPickPlugin */
 public class CountryListPickPlugin: FlutterPlugin, MethodCallHandler {
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "country_list_pick")
+    val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "crypto_network_list_pick")
     channel.setMethodCallHandler(CountryListPickPlugin());
   }
 
@@ -27,7 +27,7 @@ public class CountryListPickPlugin: FlutterPlugin, MethodCallHandler {
   companion object {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
-      val channel = MethodChannel(registrar.messenger(), "country_list_pick")
+      val channel = MethodChannel(registrar.messenger(), "crypto_network_list_pick")
       channel.setMethodCallHandler(CountryListPickPlugin())
     }
   }

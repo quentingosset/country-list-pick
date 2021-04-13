@@ -43,7 +43,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-  country_list_pick:
+  crypto_network_list_pick:
     dependency: "direct dev"
     description:
       path: ".."
